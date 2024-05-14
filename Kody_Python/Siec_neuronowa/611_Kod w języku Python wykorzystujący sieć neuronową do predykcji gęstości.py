@@ -40,7 +40,7 @@ from keras.regularizers import l2
 
 #Tutaj nastepuje budowa sieci
 model = Sequential()
-model.add(Dense(5, activation='tanh', kernel_regularizer=l2(0.1)))  # Model with strong L2 reg.
+model.add(Dense(5, activation='tanh', kernel_regularizer=l2(0.1)))  
 model.add(Dense(5, activation='tanh', kernel_regularizer=l2(0.1)))
 model.add(Dense(55, activation='gelu', kernel_regularizer=l2(0.1)))
 model.add(Dense(55, activation='gelu', kernel_regularizer=l2(0.1)))
