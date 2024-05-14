@@ -14,8 +14,14 @@ I believe that the models are not complex enough to create them OOP along with i
 -The CP-PC-SAFT method (Mathematica script). 
 
 =================================================
+
+
 Ideas for the future:
+
 -Integration with Docker;
+
 -Creation in Flask of a web application that will return prediction results;
-- Throwing in more models, e.g. LightGBM, autoencoders, etc;
+
+Throwing in more models, e.g. LightGBM, autoencoders, etc;
+
 -Creating a pipeline that selects the best available model;
